@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "node-cron": "^3.0.0"
+  },
+  "scripts":{
+    "dev": "node src/index.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Back",
+  "main": "index.js",
+  "author": "santa",
+  "license": "MIT"
+}

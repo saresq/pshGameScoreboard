@@ -1,0 +1,25 @@
+.score-title {
+    padding-top: 3em;
+}
+
+.score-title>.logo {
+    background: #fc6767;
+    background: -webkit-radial-gradient(circle farthest-side at bottom center, #fc6767 0%, #ec008c 100%);
+    background: -moz-radial-gradient(circle farthest-side at bottom center, #fc6767 0%, #ec008c 100%);
+    background: radial-gradient(circle farthest-side at bottom center, #fc6767 0%, #ec008c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background: #ec008c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fc6767, #ec008c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fc6767, #ec008c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+html, body, #root, #root>.container{
+    height: 100%
+}
