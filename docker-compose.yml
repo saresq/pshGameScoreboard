@@ -5,8 +5,8 @@ services:
     build:
       context: ./server
       dockerfile: Dockerfile
-    image: challenge-server
-    container_name: challenge-node-server
+    image: pshgamescoreboard_server
+    container_name: pshgamescoreboard_node-server
     command: npm run dev
     volumes:
       - ./server/:/usr/src/app
@@ -36,8 +36,8 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
-    image: challenge-client
-    container_name: challenge-react-client
+    image: pshgamescoreboard_client
+    container_name: pshgamescoreboard_react-client
     command: npm start
     volumes:
       - ./client/:/usr/app

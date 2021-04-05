@@ -1,10 +1,10 @@
 const { Schema, model } = require('mongoose');
 
 const playerSchema = new Schema({
-    nickname: String,
-    profileImgURL: String
+  nickname: String,
+  profileImgURL: String,
 }, {
-    timestamps: true
-})
+  timestamps: true,
+});
 
 module.exports = model('Player', playerSchema);
