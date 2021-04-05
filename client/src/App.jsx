@@ -5,7 +5,7 @@ import TopTen from './components/TopTen';
 function App() {
   return (
     <div className="container">
-      <div className="row h-100">
+      <div className="row">
         <div className="col-md-6 offset-md-3 bg-white">
           <div className="score-title text-center">
             <h1 className="logo">

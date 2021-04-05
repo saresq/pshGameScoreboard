@@ -41,11 +41,18 @@ function TopTen() {
     <div className="col-md-6 offset-md-3">
       <table className="table table-sm table-borderless">
         <tbody>
-          {data.map(({ _id, player: { nickname }, score }, index) => (
+          {data.map(({ _id, player: { nickname, profileImgURL }, score }, index) => (
             <tr key={_id} className="row">
-              <th scope="row" className="col-md-2">{index + 1}</th>
-              <td className="col-md-8">{nickname}</td>
-              <td className="col-md-2 text-center">
+              <th scope="row" className="col-2 align-middle">
+                #
+                {index + 1}
+              </th>
+              <td className="col-8">
+                <img src={profileImgURL} className="avatar" alt="" />
+                &nbsp;
+                {nickname}
+              </td>
+              <td className="col-2 text-center">
                 {score}
                 pts
               </td>
