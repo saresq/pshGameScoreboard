@@ -1,5 +1,5 @@
 ## PSH Challenge - Santa AQ
-___
+
 ### Game Scoreboard
 #### Running the containers
 To run the project, clone the repo and enter the root folder.
