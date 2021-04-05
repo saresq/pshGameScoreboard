@@ -1,6 +1,7 @@
-### PSH Challenge - Santa AQ
-#### Game Scoreboard
-##### Running the containers
+## PSH Challenge - Santa AQ
+___
+### Game Scoreboard
+#### Running the containers
 To run the project, clone the repo and enter the root folder.
 Once inside, exec
 
@@ -10,7 +11,7 @@ Once inside, exec
 *Remember that if you installed docker with sudo, then you should run this command also with sudo.*
 
 
-##### Seeing the Scoreboard
+#### Seeing the Scoreboard
 
 Navigate to [localhost:3000](http://localhost:3000) and see which players scored the Top Ten best scores in PSH Game :)
 ___
