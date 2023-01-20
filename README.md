@@ -1,4 +1,4 @@
-## PSH Challenge - Santa AQ
+## PSH Challenge - Santi AQ
 
 ### Game Scoreboard
 #### Running the containers
@@ -23,4 +23,4 @@ ___
 
 
 
-#### Made with ♥ by Santa AQ
+#### Made with ♥ by Santi AQ
